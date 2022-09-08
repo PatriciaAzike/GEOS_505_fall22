@@ -2,4 +2,3 @@
 
 ## Patricia Azike
 
-Email: [patriciaazike@u.boisestate.edu](mailto:patriciaazike@u.boisestate.edu)
