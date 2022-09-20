@@ -12,6 +12,8 @@ The effects of smoke vary over temporal and spatial scales; hence several models
 
 To counter these challenges, we propose the implementation of Smoke3d, a software framework that employs conservative numerical schemes, which ensures the accuracy of predictions. Smoke3d is a stand-alone application of [ForestClaw](https://github.com/ForestClaw/ForestClaw/wiki), a suite for solving hyperbolic partial differential equations. It is computationally cost-effective as it makes use of adaptive mesh refinement (AMR), thereby targeting only areas with smoke on the physically domain. We are currently testing how different source term functions affect the transport of smoke and impact PM2.5 concentrations, by specifying guages, which are akin to locations influenced by smoke, and using a nonlinear least squares solver to estimate the parameters of the source term based on the output of the guages and measure the L2 error. To do this, we runForestClaw as a black-box forward solver using a Python frontend script with input parameters (both observed and starting values) to enable parameter estimation based on the output of the gauges. 
 
+I will be making use of the knowledge gained from the cimate dashboard project to create one for predicting smoke in Idaho. Whi,e it is true that others have done something similar, lots of uncertainties, which we hope to address, have been identified in their work.
+
 
 # Goals for the semester
 
